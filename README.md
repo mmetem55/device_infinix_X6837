@@ -5,7 +5,6 @@
 ### Changes Made
 
 * Achieved **LineageOS 23.2 compatibility**.
-* Fixed the **PN557 NFC vendor driver** issue.
 * Fixed issues with **Wi-Fi Hotspot, USB Tethering, and Bluetooth Tethering**.
 * Added the **stock Transsion Camera** application with unnecessary telemetry and data-collection features removed.
 * Replaced the incorrect battery values displayed in the Android interface with the correct values from the **Transsion debug interface** using a custom kernel-level battery proxy driver.
