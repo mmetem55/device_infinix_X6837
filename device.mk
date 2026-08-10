@@ -7,8 +7,6 @@
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 31
 
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/keys/releasekey
-
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/vabc_features.mk)
