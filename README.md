@@ -1,6 +1,16 @@
 # Device tree for the Infinix HOT 40 Pro (X6837)
 
-### Original Project: https://github.com/mt6789-transsion/device_infinix_X6837 ###
+### Original Project: https://github.com/mt6789-transsion/device_infinix_X6837
+
+### Changes Made
+
+* Added **LineageOS 23.2 compatibility**.
+* Fixed the **PN557 NFC vendor driver** issue.
+* Fixed issues with **Wi-Fi Hotspot, USB Tethering, and Bluetooth Tethering**.
+* Added the **stock Transsion Camera** application with unnecessary telemetry and data-collection features removed.
+* Replaced the incorrect battery values displayed in the Android interface with the correct values from the Transsion debug interface using a custom kernel-level battery proxy driver.
+* Added a new **Bypass Charging** option to the Battery section of the Android Settings app, with **kernel-level bypass charging support**.
+
 
 ## Device specifications
 
