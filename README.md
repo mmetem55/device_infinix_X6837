@@ -2,6 +2,8 @@
 
 ### Original Project: https://github.com/mt6789-transsion/device_infinix_X6837
 
+### Clone device tree and LineageOS source code see the repo: https://github.com/mmetem55/device_manifest_X6837 ###
+
 ### Changes Made
 
 * Achieved **LineageOS 23.2 compatibility**.
