@@ -1,8 +1,8 @@
 # Device tree for the Infinix HOT 40 Pro (X6837)
 
-Original Project: [device_infinix_X6837] (https://github.com/mt6789-transsion/device_infinix_X6837)
+Original Project: [device_infinix_X6837](https://github.com/mt6789-transsion/device_infinix_X6837)
 
-Clone device tree and LineageOS source code see the repo: [device_manifest_X6837] (https://github.com/mmetem55/device_manifest_X6837)
+Clone device tree and LineageOS source code see the repo: [device_manifest_X6837](https://github.com/mmetem55/device_manifest_X6837)
 
 ### Changes Made
 
