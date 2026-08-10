@@ -2,8 +2,6 @@
 
 ### Original Project: https://github.com/mt6789-transsion/device_infinix_X6837
 
-İlk maddeyi **“compatibility was achieved”** anlamını verecek şekilde güncelledim:
-
 ### Changes Made
 
 * Achieved **LineageOS 23.2 compatibility**.
