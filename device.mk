@@ -512,8 +512,5 @@ $(call inherit-product, vendor/mtk-bypass-charge/mtk.mk)
 # Transsion Camera
 $(call inherit-product, vendor/transsion-camera/camera.mk)
 
-# MindTheGapps
-$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
-
 # Inherit the proprietary files
 $(call inherit-product, vendor/infinix/X6837/X6837-vendor.mk)
