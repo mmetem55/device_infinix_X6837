@@ -2,14 +2,28 @@
 
 ### Original Project: https://github.com/mt6789-transsion/device_infinix_X6837
 
+İlk maddeyi **“compatibility was achieved”** anlamını verecek şekilde güncelledim:
+
 ### Changes Made
 
-* Added **LineageOS 23.2 compatibility**.
+* Achieved **LineageOS 23.2 compatibility**.
 * Fixed the **PN557 NFC vendor driver** issue.
 * Fixed issues with **Wi-Fi Hotspot, USB Tethering, and Bluetooth Tethering**.
 * Added the **stock Transsion Camera** application with unnecessary telemetry and data-collection features removed.
-* Replaced the incorrect battery values displayed in the Android interface with the correct values from the Transsion debug interface using a custom kernel-level battery proxy driver.
+* Replaced the incorrect battery values displayed in the Android interface with the correct values from the **Transsion debug interface** using a custom kernel-level battery proxy driver.
 * Added a new **Bypass Charging** option to the Battery section of the Android Settings app, with **kernel-level bypass charging support**.
+
+Türkçesi:
+
+### Yapılan Değişiklikler
+
+* **LineageOS 23.2 uyumluluğu sağlandı.**
+* **PN557 NFC vendor sürücüsü** sorunu düzeltildi.
+* **Wi-Fi Hotspot, USB Tethering ve Bluetooth Tethering** sorunları düzeltildi.
+* Gereksiz telemetri ve veri toplama özellikleri kaldırılmış **stok Transsion Camera** uygulaması eklendi.
+* Android arayüzünde gösterilen hatalı pil değerleri, özel bir **kernel seviyesinde battery proxy sürücüsü** kullanılarak **Transsion debug arayüzündeki doğru değerlerle** değiştirildi.
+* Android Ayarlar uygulamasının Pil bölümüne yeni bir **Bypass Charging** seçeneği eklendi ve **kernel seviyesinde bypass şarj desteği** sağlandı.
+
 
 
 ## Device specifications
