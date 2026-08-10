@@ -1,6 +1,6 @@
 # Device tree for the Infinix HOT 40 Pro (X6837)
 
-*** Original Project: https://github.com/mt6789-transsion/device_infinix_X6837***
+### Original Project: https://github.com/mt6789-transsion/device_infinix_X6837 ###
 
 ## Device specifications
 
