@@ -23,7 +23,7 @@ Clone device tree and LineageOS source code see the repo: [device_manifest_X6837
 | Shipped Android version | 13                                                          |
 | Storage                 | 128GB / 256GB                                               |
 | MicroSD                 | MicroSDXC                                                   |
-| Battery                 | Non-removable Li-ion 5000 mAh                                |
+| Battery                 | Non-removable Li-Po 5000 mAh                                |
 | Dimensions              | 168.6 x 76.6 x 8.3 mm                                       |
 | Display                 | 1080 x 2460 pixels, 6.78 inches                             |
 | Rear Camera 1           | 108 MP, f/1.8, (wide), 0.64µm, AF                           |
