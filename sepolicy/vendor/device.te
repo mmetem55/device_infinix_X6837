@@ -7,3 +7,6 @@ type fpsensor_fp_device, dev_type;
 
 # Tranfs
 type tranfs_block_device, dev_type;
+
+# Tkv
+type tkv_block_device, dev_type;
