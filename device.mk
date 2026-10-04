@@ -109,10 +109,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth-service.mediatek
 
-PRODUCT_PACKAGES += \
-    vendor.mediatek.hardware.bluetooth.audio@2.1.vendor:64 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2.vendor:64
-
 # Boot control HAL
 PRODUCT_PACKAGES += \
     com.android.hardware.boot \
@@ -141,8 +137,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.3-service \
-    android.hardware.memtrack-service.mediatek
+    android.hardware.graphics.composer@2.3-service
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0.vendor \
@@ -271,7 +266,6 @@ PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
 # Media
 $(call soong_config_set_bool,android_hardware_mediatek_codec2,link_v33_libstagefright_foundation,true)
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2-mtk-service \
     libcodec2_vndk.vendor:64 \
     libeffects:64 \
     libeffectsconfig.vendor:64 \
