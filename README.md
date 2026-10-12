@@ -7,6 +7,7 @@ Clone device tree and LineageOS source code see the repo: [device_manifest_X6837
 ### Changes Made
 
 * Achieved **LineageOS 23.2 compatibility**.
+* Prepared for **LineageOS 24.0** with the official `LineageOS/android_hardware_mediatek` (`lineage-24.0`): `lib_driver_cmd_mt66xx` and the optional-HAL MTK VINTF matrix now live in this tree.
 * Fixed issues with **Wi-Fi Hotspot, USB Tethering, and Bluetooth Tethering**.
 * Added the **stock Transsion Camera** application with unnecessary telemetry and data-collection features removed.
 * Replaced the incorrect battery values displayed in the Android interface with the correct values from the **Transsion debug interface** using a custom kernel-level battery proxy driver.
