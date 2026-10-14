@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+-include vendor/keys/key.mk
+
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 31
 
@@ -433,11 +435,14 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     hardware/mediatek/libmtkperf_client \
     hardware/google/interfaces \
-    hardware/google/pixel
+    hardware/google/pixel \
+    hardware/google/pixel/pixelstats \
+    hardware/google/pixel/power-libperfmgr
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal-service.mediatek
+    android.hardware.thermal-service.mediatek \
+    pixelatoms-cpp
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
@@ -487,12 +492,10 @@ $(call soong_config_set_bool,mediatek_wifi_hal,use_pre_baklava_qpr0_struct,true)
 
 PRODUCT_PACKAGES += \
     libwifi-hal-wrapper \
+    wlan_assistant \
     android.hardware.wifi-service \
     wpa_supplicant \
-    lib_driver_cmd_mt66xx \
-    hostapd \
-    libkeystore-wifi-hidl:64 \
-    libkeystore-engine-wifi-hidl:64
+    hostapd
 
 # Dynamic Partitions
 TARGET_RECOVERY_DEVICE_MODULES += \

@@ -55,8 +55,6 @@ vendor/lib64/libspeech_enh_lib.so;FIX_SONAME
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib64/libTransNS.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
-vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
-vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
 # Audio Configs
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
@@ -1506,7 +1504,7 @@ vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/mt6789/libDR.so;SYMLINK=vendor/lib64/libDR.so
-vendor/lib64/mt6789/libmnl.so;SYMLINK=vendor/lib64/libmnl.so
+vendor/lib64/mt6789/libmnl.so:vendor/lib64/mt6789/libmnl_mtk.so;SYMLINK=vendor/lib64/libmnl_mtk.so
 vendor/lib64/librpc.so
 vendor/lib64/libviagpsrpc.so
 
@@ -1553,7 +1551,7 @@ vendor/lib64/libcodec2_mtk_vdec.so
 vendor/lib64/libcodec2_mtk_venc.so
 vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
-vendor/lib64/libformatter.so
+vendor/lib64/libformatter.so:vendor/lib64/libformatter_mtk.so
 
 # Media (Common)
 vendor/lib/AVCSecureVdecCA.so;DISABLE_CHECKELF
